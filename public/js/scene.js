@@ -18,7 +18,7 @@ class Scene {
 
         // model
         const loader = new THREE.GLTFLoader();
-        const url = "../assets/models/airplane_cabin/scene.gltf";
+        const url = "../public/assets/models/airplane_cabin/scene.gltf";
         loader.load(url, (gltf) => {
             const box = new THREE.Box3().setFromObject(gltf.scene);
             const center = box.getCenter(new THREE.Vector3());
