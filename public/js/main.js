@@ -42,7 +42,7 @@ function onLoadingFinished() {
 
     setTimeout(() => {
         new TWEEN.Tween(glScene.initCamera.position).to({ x: -3.5 }, duration).easing(easing).start();
-        new TWEEN.Tween(glScene.initCamera.position).to({ y: 1.3 }, duration).easing(easing).start();
+        new TWEEN.Tween(glScene.initCamera.position).to({ y: 0.9 }, duration).easing(easing).start();
         new TWEEN.Tween(glScene.initCamera.rotation).to({ y: THREE.Math.degToRad(90) }, duration).easing(easing).start();
     }, theme1StartTime - duration);
 
