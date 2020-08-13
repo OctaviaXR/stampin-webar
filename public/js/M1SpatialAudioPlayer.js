@@ -11,7 +11,7 @@ Mach1DecodeModule().then(function (m1DecodeModule) {
     m1Decode.setFilterSpeed(0.9);
 });
 
-var audioFilesPath = "assets/audio/m1spatial/"
+var audioFilesPath = "public/assets/audio/m1spatial/"
 var audioFiles8 = ["T1.ogg", "T2.ogg", "T3.ogg", "T4.ogg", "B5.ogg", "B6.ogg", "B7.ogg", "B8.ogg"];
 
 for (let i = 0; i < audioFiles8.length; i++) {
