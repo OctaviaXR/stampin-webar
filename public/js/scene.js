@@ -34,7 +34,8 @@ class Scene {
     init() {
         // camera
         this.initCamera = new THREE.Object3D(); // object that has camera as child
-        this.initCamera.position.set(-3.2, 1.1, 0.6);
+//         this.initCamera.position.set(-3.2, 1.1, 0.6);
+        this.initCamera.position.set(-3.2, 0.9, 0.4);
         this.initCamera.rotation.set(0, 0, 0);
         this.initCamera.add(this.camera);
         this.scene.add(this.initCamera);
